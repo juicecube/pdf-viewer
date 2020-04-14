@@ -1,0 +1,20 @@
+#vim
+*~
+*.sw?
+
+# python
+*.pyc
+
+# generic editing tools
+tags
+
+#mac
+.DS_Store
+
+# node modules
+node_modules
+
+# logfiles
+.idea/
+.vscode/
+.history/
