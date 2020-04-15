@@ -4,8 +4,7 @@
   "description": "提供多功能的pdf预览等",
   "main": "index.js",
   "scripts": {
-    "server": "node ./bin/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node ./bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,13 +17,8 @@
   },
   "homepage": "https://github.com/juicecube/pdf-viewer#readme",
   "dependencies": {
-    "ejs": "^3.0.2",
     "express": "^4.17.1",
-    "node-jsx": "^0.13.3",
     "pdfjs-dist": "^2.3.200",
-    "prop-types": "^15.7.2",
-    "querystring": "^0.2.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "querystring": "^0.2.0"
   }
 }
